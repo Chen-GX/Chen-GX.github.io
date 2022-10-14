@@ -3,8 +3,22 @@
   <entry>
     <title>我的儿子</title>
     <url>/2022/10/11/%E6%88%91%E7%9A%84%E5%84%BF%E5%AD%90/</url>
-    <content><![CDATA[<p><img src="https://s2.loli.net/2022/10/12/A8pbvFr25azuRHK.jpg" alt="胖胖.jpg"></p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3cc7c1423169695964bc8863516e3278ee040373ee26b76647b1901876459439">165d50f05814027fb7fe5e4ae8a088d8263bd5e76b5699d69250a6c479a3dd3283ca9173b1bae7cc1e55a0ffa5eadd8b7970265199dcd42aad014308b03204b55540c57a892a52bf2f857168f7476fccdd5dfd60c5992348be6264743aaedd6eff1cc8104032cbf1dcf398ae5fe08e81</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">您好, 这里需要密码.</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>你好</category>
       </categories>
