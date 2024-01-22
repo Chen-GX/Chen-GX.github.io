@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Lastest Update: 22th Jan 2024&nbsp;  [中文版本 (Chinese Version)](https://Chen-GX.github.io/file/Chinese-CV-GuoxinChen.pdf)
+<!-- Lastest Update: 22th Jan 2024&nbsp;  [中文版本 (Chinese Version)](https://Chen-GX.github.io/file/Chinese-CV-GuoxinChen.pdf) -->
 
 <!-- (https://Chen-GX.github.io/file/publications-zh/) -->
 
@@ -15,7 +15,11 @@ Lastest Update: 22th Jan 2024&nbsp;  [中文版本 (Chinese Version)](https://Ch
 - [*MPrompt: Exploring Multi-level Prompt Tuning for Machine Reading Comprehension*](https://aclanthology.org/2023.findings-emnlp.343)
 <br>**Guoxin Chen**, Yiming Qian, Bowen Wang, and Liangzhi Li<br>In Findings of EMNLP 2023<br>
 
-- [*Causality and Independence Enhancement for Biased Node Classification*](https://dl.acm.org/doi/10.1145/3583780.3614804)*<br>**Guoxin Chen**, Yongqing Wang, Fangda Guo, Qinglang Guo, Jiangli Shao, Huawei Shen, Xueqi Cheng<br>The 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
+- [*Causality and Independence Enhancement for Biased Node Classification*](https://dl.acm.org/doi/10.1145/3583780.3614804)<br>**Guoxin Chen**, Yongqing Wang, Fangda Guo, Qinglang Guo, Jiangli Shao, Huawei Shen, Xueqi Cheng<br>The 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
+
+- [*InDNI: An Infection Time Independent Method for Diffusion Network Inference*](https://doi.org/10.1007/978-3-031-24755-2_6)
+<br> **Guoxin Chen**, Yongqing Wang, Jiangli Shao, Boshen Shi, Huawei Shen, Xueqi Cheng
+<br> The China Conference on Information Retrieval (CCIR 2022)
 
 
 
