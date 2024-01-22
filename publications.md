@@ -4,19 +4,24 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-Lastest Update: 28th Dec 2023&nbsp;  [中文版本 (Chinese Version)](https://caihanlin.com/file/publications-zh/)
+Lastest Update: 22th Jan 2024&nbsp;  [中文版本 (Chinese Version)](https://Chen-GX.github.io/file/Chinese-CV-GuoxinChen.pdf)
+
+<!-- (https://Chen-GX.github.io/file/publications-zh/) -->
 
 ## Conference Paper
 
-- [Securing Billion Bluetooth Devices leveraging Learning-based Techniques](https://caihanlin.com/file/404/) (Under Final Revision)<br>*Final year project (FYP)*<br>**Hanlin Cai**, Yuchen Fang, Meng Yuan, Zhezhuang Xu<br>AAAI Conference on Artificial Intelligence, Undergraduate Consortium ([AAAI 2024 UC](https://aaai.org/aaai-conference/undergraduate-consortium/))<br>Vancouver, Canada. February, 2024.
+ 
 
-- [Optimizing Traffic Sign Detection System Using Deep Residual Neural Networks Combined with Analytic Hierarchy Process Model](https://www.researchgate.net/publication/374730865)<br>*Junior year course design.*<br>**Hanlin Cai**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>The 28th International Conference on Artificial Life and Robotics (ICAROB 2023)<br>Beppu, Japan. February, 2023.<br>Recommended for expanding publication in the Journal of Advances in Artificial Life Robotics (EI Compendex).
+- [*MPrompt: Exploring Multi-level Prompt Tuning for Machine Reading Comprehension*](https://aclanthology.org/2023.findings-emnlp.343)
+<br>**Guoxin Chen**, Yiming Qian, Bowen Wang, and Liangzhi Li<br>In Findings of EMNLP 2023<br>
 
-- [An IoT Garbage Monitoring System for Effective Garbage Management](https://www.researchgate.net/publication/368410220_An_IoT_Garbage_Monitoring_System_for_Effective_Garbage_Management)<br>*Freshman course design, early project.*<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>The 4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022 (EI Compendex).<br>
+- [*Causality and Independence Enhancement for Biased Node Classification*](https://dl.acm.org/doi/10.1145/3583780.3614804)*<br>**Guoxin Chen**, Yongqing Wang, Fangda Guo, Qinglang Guo, Jiangli Shao, Huawei Shen, Xueqi Cheng<br>The 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
+
+
 
   <br>
 
-## Journal Paper
+<!-- ## Journal Paper
 
 - Coming soon! 🚀
 
@@ -40,5 +45,5 @@ Lastest Update: 28th Dec 2023&nbsp;  [中文版本 (Chinese Version)](https://ca
 
 - [Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot](https://caihanlin.com/mypaper/thesis/IP-report.pdf)<br>**Hanlin Cai** (Advisor: Zhezhuang Xu, Yuxiong Xia). Junior Intern Program.<br>Industrial Placement Report in [Huading Tech](http://www.hdim.com.cn/) and [IACTIP Lab](https://dqxy.fzu.edu.cn/en/)<br>
 
-  <br>
+  <br> -->
 
