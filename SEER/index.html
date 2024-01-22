@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description"
+        content="SEER: Facilitating Structured Reasoning and Explanation via Reinforcement Learning">
+    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+    <meta property="og:description"
+        content="SEER: Facilitating Structured Reasoning and Explanation via Reinforcement Learning" />
+    <meta property="og:url" content="URL OF THE WEBSITE" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/your_banner_image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="Structured Reasoning and Explanation">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>SEER</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WSHB8CZL');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --max-width: 900px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSHB8CZL" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">SEER: Facilitating Structured Reasoning and Explanation
+                            via Reinforcement Learning</h1>
+                        <div class="is-size-5 publication-authors">
+                            <!-- Paper authors -->
+                            <span class="author-block">
+                                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Guoxin
+                                    Chen</a><sup>12</sup>,</span>
+                            <span class="author-block">
+                                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Kexin Tang</a>,</span>
+                            <span class="author-block">
+                                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Chao Yang</a><sup>2</sup>,
+                            </span>
+                            <span class="author-block">
+                                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Fuying Ye</a>,
+                            </span>
+                            <span class="author-block">
+                                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yu Qiao</a><sup>2*</sup>,
+                                <span class="author-block">
+                                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yiming Qian</a><sup>3*</sup>
+                                </span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>1</sup>Shanghai Artificial Intelligence Laboratory</span>
+                            <span class="author-block"><sup>2</sup>Institute of Computing Technology, Chinese Academy of
+                                Sciences</span>
+                            <span class="author-block"><sup>3</sup>Agency for Science, Technology and Research
+                                (A*STAR)</span>
+                            <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author</small></span>
+                        </div>
+                        <!-- <div class="is-size-5 publication-authors">
+                            <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author</small></span>
+                        </div> -->
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- Arxiv PDF link -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Paper</span>
+                                    </a>
+                                </span>
+
+                                <!-- Supplementary PDF link -->
+                                <!-- <span class="link-block">
+                                    <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Supplementary</span>
+                                    </a>
+                                </span> -->
+
+                                <!-- Github link -->
+                                <span class="link-block">
+                                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+
+                                <!-- ArXiv abstract Link -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Elucidating the reasoning process with structured explanations from question to answer is
+                            fundamentally crucial, as it significantly enhances the interpretability and trustworthiness
+                            of question-answering (QA) systems. However, structured explanations demand models to
+                            perform intricate structured reasoning, which poses great challenges. Most existing methods
+                            focus on single-step reasoning through supervised learning, ignoring logical dependencies
+                            between steps. Meanwhile, existing reinforcement learning (RL)-based methods overlook the
+                            structured relationships, impeding RL's potential in structured reasoning. In this paper, we
+                            propose SEER, a novel method that maximizes a structure-based return to facilitate
+                            structured reasoning and explanation. Our proposed structure-based return precisely
+                            describes the hierarchical and branching structure inherent in structured reasoning,
+                            effectively capturing the intricate relationships between states. We also introduce a
+                            fine-grained reward function to meticulously delineate diverse reasoning steps. Extensive
+                            experiments show that SEER significantly outperforms state-of-the-art methods, achieving an
+                            absolute improvement of 6.9% over RL-based methods on EntailmentBank, a 4.4% average
+                            improvement on STREET benchmark, and exhibiting outstanding efficiency and cross-dataset
+                            generalization performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End paper abstract -->
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Overall Framework</h2>
+            <div class="content has-text-justified">
+
+                <!-- Start of figure -->
+                <figure style="text-align:center;">
+                    <!-- Image -->
+                    <img src="static/images/framework.svg" alt="Description of the image for screen readers"
+                        style="max-width:var(--max-width); margin:auto;">
+
+                    <!-- Caption -->
+                    <!-- <figcaption></figcaption> -->
+                </figure>
+                <!-- End of figure -->
+
+            </div>
+            <div style="max-width:var(--max-width); margin:auto;">
+                <p>
+                    The overall framework of SEER, which mainly includes trajectory collection and parameter updates.
+                    For <b>trajectory collection</b>, we delineate the state update process into two steps: action
+                    generation (based on Policy) and conclusion reasoning (based on Entailment). For <b>parameter
+                        updates</b>, the trajectories are converted to \(T_{\text{pred}}\) and aligned with intermediate
+                    nodes in \(T_{\text{gold}}\) based on maximum Jaccard similarity.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Details of the Reward and Alignment Process</h2>
+            <div class="content has-text-justified">
+
+                <!-- Start of figure -->
+                <figure>
+                    <!-- Image -->
+                    <img src="static/images/reward_process.svg" alt="Description of the image for screen readers"
+                        style="max-width:var(--max-width); margin:auto;">
+
+                    <!-- Caption -->
+                    <!-- <figcaption></figcaption> -->
+                </figure>
+                <!-- End of figure -->
+
+            </div>
+            <div style="max-width:var(--max-width); margin:auto;">
+                <p>
+                    An illustration of the reward and alignment process of SEER. Each reasoning step is actually a
+                    subtree (the same in the reasoning graphs). <b>Step (1)</b> We construct \(T_{\text{pred}}\) using
+                    the last intermediate conclusion (\(i_4\) in this example) as the hypothesis. <b>Step (2)</b> We
+                    calculate the Jaccard similarity between the intermediate node (\(i_*\)) in \(T_{\text{pred}}\) and
+                    each golden intermediate node in \(T_{\text{gold}}\) (\(\hat{i}_1\) and \(h\) in this example), and
+                    align with the maximum Jaccard similarity. In this example, \(i_1\) is aligned with \(\hat{i}_1\)
+                    due to \(\text{JS}(i_1, \hat{i}_1) = 1\). \(i_2\) is aligned with "NULL". \(i_4\) is aligned with
+                    \(\hat{i}_1\) due to \(\text{JS}(i_4, \hat{i}_1)=0.5\) and \(\text{JS}(i_4, h)=0.4\). <b>Step
+                        (3)</b> We assign rewards based on the alignment results. Note that \(i_3\) (\(s_3\)) is a
+                    redundant step. \(r_{1}=1\), \(r_{2}=-1\), \(r_{3}=-0.5\), and \(r_{4}=-1\). Evidently, the reward
+                    for each state originates from the tree structure rather than chained trajectory. Therefore, the
+                    return of each state should also follow the tree structure (or graph structure in reasoning graphs)
+                    rather than chained trajectory.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Examples of Equivalent Trajectory and Defination of return</h2>
+            <div class="content has-text-justified">
+
+                <!-- Start of figure -->
+                <figure>
+                    <!-- Image -->
+                    <img src="static/images/Equivalent_Trajectory.svg" alt="Description of the image for screen readers"
+                        style="max-width:var(--max-width); margin:auto;">
+
+                    <!-- Caption -->
+                    <!-- <figcaption></figcaption> -->
+                </figure>
+                <!-- End of figure -->
+
+            </div>
+            <div style="max-width:var(--max-width); margin:auto;">
+                <p>
+                    An illustration of the equivalent trajectory and the definition of return. As the reasoning steps of
+                    \(s_1\), \(s_2\), and \(s_3\) are mutually independent, the execution order among these steps can be
+                    arbitrary. Thus, \(\tau\) and \(\tau^{\prime}\) are <b>equivalent trajectories</b> because they can
+                    be converted to the same entailment tree.
+                    As shown in <span style="color:blue;">blue box</span>, previous work, such as RLET, defines the
+                    return (a.k.a expected cumulative reward) in a chained trajectory and would assign different returns
+                    to \(s_1\) and \(s_2\) in these equivalent trajectories. In contrast, as shown in <span
+                        style="color:red;">red box</span>, our structure-based return is defined based on the tree or
+                    graph structure inherent in structured reasoning, which is the same source of rewards. Our
+                    structure-based return will consistently allocate stable returns to equivalent trajectories, thereby
+                    promoting training stability and convergence. Furthermore, maintaining consistency between the
+                    sources of rewards and returns can significantly enhance the effectiveness of the policy.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>BibTex Code Here</code></pre>
+        </div>
+    </section>
+    <!--End BibTex citation -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+
+                        <p>
+                            This page was built using the <a
+                                href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                            You are free to borrow the of this website, we just ask that you link back to this page in
+                            the footer. <br> This website is licensed under a <a rel="license"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Statcounter tracking code -->
+
+    <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
