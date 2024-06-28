@@ -1,15 +1,15 @@
 
 # 📝 Publications 
 ## 📚 Nature Language Processing
-- ``ACL 2024`` [SEER: Facilitating Structured Reasoning and Explanation via Reinforcement Learning](https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf)
+- `ACL 2024` [SEER: Facilitating Structured Reasoning and Explanation via Reinforcement Learning](https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf)
 **Guoxin Chen**, Kexin Tang, Chao Yang, Fuying Ye, Yu Qiao, and Yiming Qian
-- ``EMNLP 2023`` [MPrompt: Exploring Multi-level Prompt Tuning for Machine Reading Comprehension](https://aclanthology.org/2023.findings-emnlp.343.pdf), **Guoxin Chen**, Yiming Qian, Bowen Wang, and Liangzhi Li.
+- `EMNLP 2023` [MPrompt: Exploring Multi-level Prompt Tuning for Machine Reading Comprehension](https://aclanthology.org/2023.findings-emnlp.343.pdf), **Guoxin Chen**, Yiming Qian, Bowen Wang, and Liangzhi Li.
 
 ## 🌐 Graph Mining
-- ``CIKM 2023`` [Causality and independence enhancement for biased node classification](https://dl.acm.org/doi/pdf/10.1145/3583780.3614804)
+- `CIKM 2023` [Causality and independence enhancement for biased node classification](https://dl.acm.org/doi/pdf/10.1145/3583780.3614804)
 **Guoxin Chen**, Yongqing Wang, Fangda Guo, et al.
 
-- ``CCIR 2023`` [InDNI: An Infection Time Independent Method for Diffusion Network Inference](https://doi.org/10.1007/978-3-031-24755-2_6)
+- `CCIR 2022` [InDNI: An Infection Time Independent Method for Diffusion Network Inference](https://doi.org/10.1007/978-3-031-24755-2_6)
 **Guoxin Chen**, Yongqing Wang, Jiangli Shao, et al.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='../../images/seer.png' alt="sym" width="100%"></div></div>
