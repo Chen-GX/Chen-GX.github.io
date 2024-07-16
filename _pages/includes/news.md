@@ -1,4 +1,5 @@
 # 🔥 News
+- *2024.07*: 🎉 [One paper](https://arxiv.org/abs/2406.10858) on community search is accepted at CIKM 2024. See you in Boise, Idaho, USA.
 - *2024.06*: 📝 [SVPO](https://arxiv.org/abs/2406.10858) is now available on arXiv.
 - *2024.05*: 📝 [AlphaMath](https://arxiv.org/abs/2405.03553) is now available on arXiv. [![](https://img.shields.io/github/stars/MARIO-Math-Reasoning/Super_MARIO?style=social&label=Code+Stars)](https://github.com/MARIO-Math-Reasoning/Super_MARIO)
 - *2024.05*: 🎉 [One paper](https://arxiv.org/pdf/2401.13246) on structured reasoning is accepted at ACL 2024 Main. See you in Bangkok.

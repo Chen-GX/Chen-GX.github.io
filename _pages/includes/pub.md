@@ -6,6 +6,9 @@
 - `EMNLP 2023` [MPrompt: Exploring Multi-level Prompt Tuning for Machine Reading Comprehension](https://aclanthology.org/2023.findings-emnlp.343.pdf), **Guoxin Chen**, Yiming Qian, Bowen Wang, and Liangzhi Li.
 
 ## 🌐 Graph Mining
+- `CIKM 2024` [FCS-HGNN: Flexible Multi-type Community Search in Heterogeneous Information Networks](https://arxiv.org/abs/2311.08919)
+**Guoxin Chen**, Fangda Guo, Yongqing Wang, et al.
+
 - `CIKM 2023` [Causality and independence enhancement for biased node classification](https://dl.acm.org/doi/pdf/10.1145/3583780.3614804)
 **Guoxin Chen**, Yongqing Wang, Fangda Guo, et al.
 
