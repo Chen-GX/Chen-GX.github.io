@@ -1,4 +1,6 @@
 # 🔥 News
+- *2024.09*: 🎉 [AlphaMath](https://arxiv.org/abs/2405.03553) and [DiReCT](https://arxiv.org/abs/2408.01933) are accepted at NeurIPS 2024. Thanks to my collaborators.
+- *2024.09*: 🎉 [SVPO](https://arxiv.org/abs/2406.10858) is accepted at EMNLP-Findings 2024 (Well, findings again 😢).
 - *2024.07*: 🎉 [One paper](https://arxiv.org/abs/2311.08919) on community search is accepted at CIKM 2024. See you in Boise, Idaho, USA.
 - *2024.06*: 📝 [SVPO](https://arxiv.org/abs/2406.10858) is now available on arXiv.
 - *2024.05*: 📝 [AlphaMath](https://arxiv.org/abs/2405.03553) is now available on arXiv. [![](https://img.shields.io/github/stars/MARIO-Math-Reasoning/Super_MARIO?style=social&label=Code+Stars)](https://github.com/MARIO-Math-Reasoning/Super_MARIO)
