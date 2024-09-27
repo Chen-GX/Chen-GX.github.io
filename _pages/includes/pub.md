@@ -2,13 +2,13 @@
 # 📝 Publications 
 ## 📚 Nature Language Processing
 - `NeurIPS 2024` [AlphaMath Almost Zero: process Supervision without process](https://arxiv.org/pdf/2405.03553)
-**Guoxin Chen**, Minpeng Liao, Chengxi Li, Kai Fan
+**Guoxin Chen**, Minpeng Liao, Chengxi Li, Kai Fan. [![](https://img.shields.io/github/stars/MARIO-Math-Reasoning/Super_MARIO?style=social&label=Code+Stars)](https://github.com/MARIO-Math-Reasoning/Super_MARIO)
 - `NeurIPS 2024` [DiReCT: Diagnostic Reasoning for Clinical Notes via Large Language Models](https://arxiv.org/pdf/2408.01933)
 Bowen Wang, Jiuyang Chang, Yiming Qian, **Guoxin Chen**, Junhao Chen, et al.
 - `EMNLP 2024` [Step-level Value Preference Optimization for Mathematical Reasoning](https://arxiv.org/pdf/2406.10858)
-**Guoxin Chen**, Minpeng Liao, Chengxi Li, Kai Fan
+**Guoxin Chen**, Minpeng Liao, Chengxi Li, Kai Fan.
 - `ACL 2024` [SEER: Facilitating Structured Reasoning and Explanation via Reinforcement Learning](https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf)
-**Guoxin Chen**, Kexin Tang, Chao Yang, Fuying Ye, Yu Qiao, and Yiming Qian
+**Guoxin Chen**, Kexin Tang, Chao Yang, Fuying Ye, Yu Qiao, and Yiming Qian.
 - `EMNLP 2023` [MPrompt: Exploring Multi-level Prompt Tuning for Machine Reading Comprehension](https://aclanthology.org/2023.findings-emnlp.343.pdf), **Guoxin Chen**, Yiming Qian, Bowen Wang, and Liangzhi Li.
 
 ## 🌐 Graph Mining

@@ -22,3 +22,5 @@ redirect_from:
 <!-- {% include_relative includes/honers.md %} -->
 
 <!-- {% include_relative includes/others.md %} -->
+
+<a href="https://info.flagcounter.com/l9Ki"><img src="https://s01.flagcounter.com/map/l9Ki/size_s/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
