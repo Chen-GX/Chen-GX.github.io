@@ -9,4 +9,4 @@ You can find my CV here: [Guoxin Chen's Curriculum Vitae](../../files/CV_GuoxinC
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *gx.chen.chn[at]gmail.com*
 
-**<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025 Fall. Contact me if you have any leads!**
+<!-- **<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025 Fall. Contact me if you have any leads!** -->
