@@ -1,6 +1,7 @@
 
 # 📝 Publications 
 ## 📚 Nature Language Processing
+- `ICLR 2025` [Learning Evolving Tools for Large Language Models](https://arxiv.org/pdf/2410.06617) **Guoxin Chen**, Zhong Zhang, Xin Cong, et al.
 - `NeurIPS 2024` [AlphaMath Almost Zero: process Supervision without process](https://arxiv.org/pdf/2405.03553)
 **Guoxin Chen**, Minpeng Liao, Chengxi Li, Kai Fan. [![](https://img.shields.io/github/stars/MARIO-Math-Reasoning/Super_MARIO?style=social&label=Code+Stars)](https://github.com/MARIO-Math-Reasoning/Super_MARIO)
 - `NeurIPS 2024` [DiReCT: Diagnostic Reasoning for Clinical Notes via Large Language Models](https://arxiv.org/pdf/2408.01933)
