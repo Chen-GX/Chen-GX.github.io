@@ -27,7 +27,7 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : # "https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=I6EjtN0AAAAJ"
   email            : "gx.chen.chn@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -64,6 +64,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - projects
 exclude:
   - docs
   - "*.sublime-project"
@@ -127,6 +128,12 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # projects pages
+  - scope:
+      path: "projects"
+    values:
+      layout: default
+      author_profile: false  # 根据需要设置为 true 或 false
 
 
 # Sass/SCSS
