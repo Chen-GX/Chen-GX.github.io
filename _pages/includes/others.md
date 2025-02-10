@@ -4,7 +4,7 @@
 
 
 # 💻 Internships
-- *2024.03 - present*: <img src='../../images/tongyi.png' style='width: 3em;'> Research Intern at Institute for Intelligent Computing, Alibaba Group, Beijing, China
+- *2024.03 - present*: <img src='../../images/tongyi_lab.png' style="width: 3em;"> Research Intern at Institute for Intelligent Computing, Alibaba Group, Beijing, China
 
 - *2023.09 - 2024.02*: <img src='../../images/shanghai_ailab.png' style='width: 3em;'> Research Intern at Shanghai AI Lab, Shanghai, China
 
