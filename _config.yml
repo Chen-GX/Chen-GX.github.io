@@ -129,11 +129,11 @@ defaults:
       layout: default
       author_profile: true
   # projects pages
-  - scope:
-      path: "projects"
-    values:
-      layout: default
-      author_profile: false  # 根据需要设置为 true 或 false
+  # - scope:
+  #     path: "projects"
+  #   values:
+  #     layout: default
+  #     author_profile: false  # 根据需要设置为 true 或 false
 
 
 # Sass/SCSS
