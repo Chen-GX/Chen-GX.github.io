@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="C-3PO: Compact Plug-and-Play Proxy Optimization to Achieve Human-like Retrieval-Augmented Generation">
+  <meta name="keywords" content="RAG, RL">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C-3PO</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://chen-gx.github.io">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown"> -->
+          <!-- other projects -->
+          <!-- <a class="navbar-item" href="https://isxinliu.github.io/Project/LVLM-SafeR">
+            LVLM-SafeR
+          </a> -->
+          <!-- <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a> -->
+        <!-- </div>
+      </div> -->
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">C-3PO: Compact Plug-and-Play Proxy Optimization to Achieve Human-like Retrieval-Augmented Generation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=I6EjtN0AAAAJ&hl=en">Guoxin Chen</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://aclanthology.org/people/m/minpeng-liao/">Minpeng Liao</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://openreview.net/profile?id=~Peiying_Yu1">Peiying Yu</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.dingmin.wang/">Dingming Wang</a><sup>2</sup>,
+            </span>
+            <br>
+            <span class="author-block">
+              <a href="https://openreview.net/profile?id=~Zile_Qiao1">Zile Qiao</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=5KRbHPMAAAAJ&hl=zh-CN">Chao Yang</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=JNhNacoAAAAJ&hl=en">Xin Zhao</a><sup>4,†</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=SQqkcdgAAAAJ&hl=en">Kai Fan</a><sup>1,†</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <sup>1</sup><img src="../../logos/tongyi.png" style="width: 20px; height: 20px; vertical-align: middle;">Tongyi Lab,
+            </span><br>
+            <span class="author-block"><sup>2</sup>University of Oxford,</span>
+            <span class="author-block"><sup>3</sup>Tsinghua University</span>
+            <span class="author-block"><sup>4</sup>Renmin University of China</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <!-- <span class="author-block"><sup>*</sup>Contribute equally,</span> -->
+            <span class="author-block"><sup>†</sup>Corresponding author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              </span> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+        <div class="content has-text-centered">
+          <img src="static/images/c3po_framework.png" alt="Evaluation of 12 Large Multi-Modal Models" width="70%"/>
+          <p>
+            Overall framework of C-3PO. (Upper left) Essential cognitive capabilities required for effective RAG system interaction in human-guided alignment. (Upper right) Our proxy-centric alignment simulates these human-like interaction through a lightweight multi-agent system with collaborative strategies. (Bottom) The end-to-end optimization pipeline for our multi-agent system.
+          </p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- <p style="color: red;">
+            Warning: This page contains examples of harmful language and images, and reader discretion is recommended.
+          </p> -->
+          <p>
+            Retrieval-augmented generation (RAG) systems face a fundamental challenge in aligning independently developed retrievers and large language models (LLMs). Existing approaches typically involve modifying either component or introducing simple intermediate modules, resulting in practical limitations and sub-optimal performance. Inspired by human search behavior—typically involving a back-and-forth process of proposing search queries and reviewing documents, we propose C-3PO, a proxy-centric framework that facilitates communication between retrievers and LLMs through a lightweight multi-agent system. Our framework implements three specialized agents that collaboratively optimize the entire RAG pipeline without altering the retriever and LLMs. These agents work together to assess the need for retrieval, generate effective queries, and select information suitable for the LLMs. To enable effective multi-agent coordination, we develop a tree-structured rollout approach for reward credit assignment in reinforcement learning. Extensive experiments in both in-domain and out-of-distribution scenarios demonstrate that C-3PO significantly enhances RAG performance while maintaining plug-and-play flexibility and superior generalization capabilities.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    two columns 
+    <div class="columns is-centered has-text-centered">
+
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Motivation</h2>
+          <br/><br/>
+          <p>
+            In 3 scenarios, attacking LLaVA-1.5 using query-relevant images obtains 
+            a much higher attack success rate than using query-irrelevant images.
+          </p>
+          <br/><br/>
+          <img src="static/images/mm_safety_motivation.jpg"
+               alt="Motivation"
+               width="100%"
+          />
+        </div>
+      </div>
+
+      <div class="column">
+        <h2 class="title is-3">Method</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              For each malicious query, we employ GPT-4 to identify and extract keywords.
+              Subsequently, we utilize Typography and Stable Diffusion techniques to 
+              create two images based on these identified keywords. 
+              These images are then strategically blended, 
+              aiming to deceive large multi-modal models into responding to queries that 
+              are not meant to be answered.
+            </p>
+            <img src="static/images/mm_safety_method.jpg"
+               alt="Method"
+               width="100%"
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section> -->
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-4">Diversity</h2>
+          <p>
+            Diversity of key phrase over 13 scenarios.
+          </p>
+          <br/>
+          <img src="static/images/mm_safety_diversity.jpeg"
+               alt="Diversity"
+               width="100%"
+          />
+        </div>
+      </div>
+
+      <div class="column">
+        <h2 class="title is-4">Statistics</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              The statistics of our constructed MM-SafetyBench. 
+              For each question, we generate 3 images correspondingly.
+            </p>
+            <br/><br/>
+            <img src="static/images/mm_safety_statistics.png"
+               alt="Statistics"
+               width="100%"
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/mm_safety_whole_scenarios.png" alt="Example of datasets in 12 scenarios" width="100%"/>
+      <p>
+        Example of datasets in 12 scenarios except for pornography.
+        We use <b># Number</b> as an abbreviation to refer to different scenarios.
+        The <b># Number</b> of the pornography scenario is 07.
+      </p>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/mm_safety_comparison.png" alt="Comparison with other Multi-Modal benchmarks" width="100%"/>
+      <p>
+        Comparison with other Multi-Modal benchmarks. The symbol * denotes Azure’s GPT-4 API.
+      </p>
+    </div>
+
+  </div>
+</section> -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiment Results</h2>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">In-domain Results</h2>
+      </div>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/main_results.png" alt="Experiment Main Results" width="90%"/>
+      <!-- <p>
+        Evaluation on Qwen2-0.5B and Qwen2-1.5B.
+      </p> -->
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Out-of-generalization Results</h2>
+      </div>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/ood_results.png" alt="Out-of-generalization Results" width="90%"/>
+      <!-- <p>
+        Evaluation on MiniGPT-4. The word “Typo.” is an abbreviation for typography.
+      </p> -->
+    </div>
+
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">More detailed results of 12 LMMs</h2>
+      </div>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/mm_safety_12_detail.jpg" alt="More detailed results of 12 LMMs" width="100%"/>
+    </div> -->
+
+  </div>
+</section>
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Quantitative Analysis</h2>
+      </div>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/mm_safety_example_01_02.jpg" alt="Examples for scenario 01(left) and 02(right)" width="100%"/>
+      <p>
+        Examples for scenario 01(left) and 02(right).
+      </p>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/mm_safety_example_03_04.jpg" alt="Examples for scenario 03(left) and 04(right)" width="100%"/>
+      <p>
+        Examples for scenario 03(left) and 04(right).
+      </p>
+    </div>
+
+    <div class="content has-text-centered">
+      <img src="static/images/mm_safety_example_06_09.jpg" alt="Examples for scenario 06(left) and 09(right)" width="100%"/>
+      <p>
+        Examples for scenario 06(left) and 09(right).
+      </p>
+    </div>
+    
+  </div>
+</section> -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Reference</h2>
+    <!-- Please kindly cite our paper if you use our code, data, models or results: -->
+    <!-- <pre><code>@misc{liu2023queryrelevant,
+      title         = {Query-Relevant Images Jailbreak Large Multi-Modal Models}, 
+      author        = {Xin Liu and Yichen Zhu and Yunshi Lan and Chao Yang and Yu Qiao},
+      year          = {2023},
+      eprint        = {2311.17600},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.CV}
+}</code></pre> -->
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website is built based on the <a
+            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page.
+            You are free to borrow the <a
+            href="https://github.com/nerfies/nerfies.github.io">source code</a> of this page, we just ask that you link back to this page in the footer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
