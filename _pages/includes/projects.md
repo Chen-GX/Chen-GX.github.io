@@ -1,14 +1,3 @@
----
-layout: default
-permalink: /projects/
-title: ""
-excerpt: ""
-author_profile: true
----
-
-<div id="projects">
-<h1>Projects</h1>
-
 <div class="project-card">
 <h3>C-3PO</h3>
 
@@ -21,6 +10,5 @@ C-3PO is a lightweight multi-agent system (with only 0.5B or 1.5B parameters) th
 <li><strong>Tags:</strong> RAG, Multi-Agent System, LLM</li>
 <li><strong>Demo:</strong> <a href="/projects/C-3PO/">Project Page</a></li>
 </ul>
-</div>
 </div>
 </div>
