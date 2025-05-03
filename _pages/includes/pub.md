@@ -1,6 +1,7 @@
 
 # 📝 Publications 
 ## 📚 Nature Language Processing
+- `ICML 2025` [C-3PO: Compact Plug-and-Play Proxy Optimization to Achieve Human-like Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.06205) **Guoxin Chen**, Minpeng Liao, Peiying Yu, Dingmin Wang, Zile Qiao, Chao Yang, Wayne Xin Zhao, Kai Fan.
 - `ICLR 2025` [Learning Evolving Tools for Large Language Models](https://arxiv.org/pdf/2410.06617) **Guoxin Chen**, Zhong Zhang, Xin Cong, et al.
 - `NeurIPS 2024` [AlphaMath Almost Zero: process Supervision without process](https://arxiv.org/pdf/2405.03553)
 **Guoxin Chen**, Minpeng Liao, Chengxi Li, Kai Fan. [![](https://img.shields.io/github/stars/MARIO-Math-Reasoning/Super_MARIO?style=social&label=Code+Stars)](https://github.com/MARIO-Math-Reasoning/Super_MARIO)
