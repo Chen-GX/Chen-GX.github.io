@@ -1,5 +1,6 @@
 # 🔥 News
-- *2024.09*: 🎉 [C-3PO](https://arxiv.org/abs/2502.06205) is accepted at ICML 2025. Thanks to my collaborators.
+- *2025.05*: 🎉 [Table-Critic](https://arxiv.org/pdf/2502.11799) is accepted at ACL 2025 (Main). It's my first paper as the corresponding author and guiding others to complete the work 😆😆😆. Thanks to all my collaborators!
+- *2025.05*: 🎉 [C-3PO](https://arxiv.org/abs/2502.06205) is accepted at ICML 2025. Thanks to my collaborators.
 - *2025.01*: 🎉 [ToolEVO](https://arxiv.org/abs/2410.06617) is accepted at ICLR 2025. Thanks to Zhong Zhang and Xin Cong for their guidance.
 - *2024.09*: 🎉 [AlphaMath](https://arxiv.org/abs/2405.03553) [![](https://img.shields.io/github/stars/MARIO-Math-Reasoning/Super_MARIO?style=social&label=Code+Stars)](https://github.com/MARIO-Math-Reasoning/Super_MARIO) and [DiReCT](https://arxiv.org/abs/2408.01933) are accepted at NeurIPS 2024. Thanks to my collaborators.
 - *2024.09*: 🎉 [SVPO](https://arxiv.org/abs/2406.10858) is accepted at EMNLP-Findings 2024 (Well, findings again 😢).
