@@ -7,12 +7,12 @@
 - *2024.09*: 🎉 [SVPO](https://arxiv.org/abs/2406.10858) is accepted at EMNLP-Findings 2024 (Well, findings again 😢).
 <details>
 <summary><b>📅 Earlier News</b></summary>
-
-- *2024.07*: 🎉 [One paper](https://arxiv.org/abs/2311.08919) on community search is accepted at CIKM 2024. See you in Boise, Idaho, USA.
-- *2024.05*: 🎉 [One paper](https://arxiv.org/pdf/2401.13246) on structured reasoning is accepted at ACL 2024 Main. See you in Bangkok.
-- *2024.03*: I join Tongyi Lab, Alibaba Group <img src='../../images/tongyi_logo.png' style="width: 20px; height: 20px; vertical-align: middle;"> as a Research intern in Beijing!
-- *2023.10*: 🎉 [One paper](https://aclanthology.org/2023.findings-emnlp.343/) on machine reading comprehension in PEFT is accepted at EMNLP-findings 2023.
-- *2023.08*: 🎉 [One paper](https://dl.acm.org/doi/10.1145/3583780.3614804) on OOD problems of node classification is accepted at CIKM 2023.
-
+<ul>
+<li><em>2024.07</em>: 🎉 <a href="https://arxiv.org/abs/2311.08919">FCS-HGNN</a> on community search is accepted at CIKM 2024. See you in Boise, Idaho, USA.</li>
+<li><em>2024.05</em>: 🎉 <a href="https://arxiv.org/pdf/2401.13246">SEER</a> on structured reasoning is accepted at ACL 2024 Main. See you in Bangkok.</li>
+<li><em>2024.03</em>: I join Tongyi Lab, Alibaba Group <img src='../../images/tongyi_logo.png' style="width: 20px; height: 20px; vertical-align: middle;"> as a Research intern in Beijing!</li>
+<li><em>2023.10</em>: 🎉 <a href="https://aclanthology.org/2023.findings-emnlp.343/">MPrompt</a> on machine reading comprehension in PEFT is accepted at EMNLP-findings 2023.</li>
+<li><em>2023.08</em>: 🎉 <a href="https://dl.acm.org/doi/10.1145/3583780.3614804">CIE</a> on OOD problems of node classification is accepted at CIKM 2023.</li>
+</ul>
 </details>
 

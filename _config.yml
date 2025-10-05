@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Guoxin Chen (陈国鑫)"
-description              : "Master student in ICT, CAS. Focusing on NLP and Graph Mining. "
+description              : "Ph.D. student at Renmin University of China"
 repository               : "Chen-GX/Chen-GX.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,7 +23,7 @@ baidu_site_verification  : # code-ZxFK3f4pfb
 author:
   name             : "Guoxin Chen (陈国鑫)"
   avatar           : "images/gx.jpg"
-  bio              : "Institute of Computing Technology"
+  bio              : # "Renmin University of China"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "https://x.com/GuoxinChen22"
   vine             :
   weibo            :
   xing             :
