@@ -1,11 +1,11 @@
 Here is **Guoxin Chen** (**陈国鑫**).
 
-I am now a second-year master student at Institute of Computing Technology, Chinese Academy of Sciences. 
-My research focuses primarily on Natural Language Processing and Graph Mining.
+I am now a first-year PhD student at Renmin University of China, advised by Prof. [Wayne Xin Zhao](https://scholar.google.com/citations?user=JNhNacoAAAAJ&hl=en) and [Ruihua Song](https://scholar.google.com/citations?user=v5LctN8AAAAJ&hl=zh-CN).
 
-Currently, I have a strong research interest focusing on Natural Language Reasoning (particularly mathematical reasoning), Tool Learning, and Retrieval Augmented Generation. I am committed to enabling LLMs to possess human-like reasoning and tool-using capabilities.
 
-You can find my CV here: [Guoxin Chen's Curriculum Vitae](../../files/CV_GuoxinChen.pdf).
+My research focuses primarily on LLM Reasoning and Agent. Currently, I have a strong research interest focusing on LLM Agent (particularly Search Agent and Code Agent). I am committed to enabling LLMs to possess human-like reasoning and tool-using capabilities.
+
+<!-- You can find my CV here: [Guoxin Chen's Curriculum Vitae](../../files/CV_GuoxinChen.pdf). -->
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *gx.chen.chn[at]gmail.com*
 
