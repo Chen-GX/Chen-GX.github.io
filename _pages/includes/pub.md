@@ -1,8 +1,17 @@
 
 # 📝 Publications 
-$^*$ is Corresponding author.
+$^†$ is Corresponding author.
+
+## 🌲 Tongyi DeepResearch Project [![](https://img.shields.io/github/stars/Alibaba-NLP/DeepResearch?style=social&label=Code+Stars)](https://github.com/Alibaba-NLP/DeepResearch)
+- `Technical Report` [Tongyi DeepResearch Technical Report](https://arxiv.org/pdf/2510.24701). Core Contributor.
+- `ICLR 2026` [IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling](https://arxiv.org/abs/2511.07327) **Guoxin Chen**, Zile Qiao, Xuanzhong Chen, et al.
+- `Technical Report` [WebResearcher: Unleashing unbounded reasoning capability in Long-Horizon Agents](https://arxiv.org/abs/2509.13309). Core Contributor.
+- `ICLR 2026` [AgentFrontier: Expanding the Capability Frontier of LLM Agents with ZPD-Guided Data Synthesis](https://arxiv.org/abs/2510.24695) Xuanzhong Chen, Zile Qiao, Guoxin Chen, et al.
+
+
 ## 📚 Large Language Models
-- `ACL 2025` [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://arxiv.org/pdf/2502.11799) Peiying Yu, **Guoxin Chen**$^*$, Jingjing Wang.
+- `ICLR 2026` [ReForm: Reflective Autoformalization with Prospective Bounded Sequence Optimization](https://arxiv.org/abs/2511.07327) **Guoxin Chen**, Jing Wu, et al.
+- `ACL 2025` [Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning](https://arxiv.org/pdf/2502.11799) Peiying Yu, **Guoxin Chen**$^†$, Jingjing Wang.
 - `ICML 2025` [C-3PO: Compact Plug-and-Play Proxy Optimization to Achieve Human-like Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.06205) **Guoxin Chen**, Minpeng Liao, Peiying Yu, Dingmin Wang, Zile Qiao, Chao Yang, Wayne Xin Zhao, Kai Fan.
 - `ICLR 2025` [Learning Evolving Tools for Large Language Models](https://arxiv.org/pdf/2410.06617) **Guoxin Chen**, Zhong Zhang, Xin Cong, et al.
 - `NeurIPS 2024` [AlphaMath Almost Zero: process Supervision without process](https://arxiv.org/pdf/2405.03553)
